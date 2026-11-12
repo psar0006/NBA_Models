@@ -1,0 +1,36 @@
+# NBA_Models — runtime dependencies
+# Python 3.10+; Python 3.11 recommended.
+
+# Data processing and Parquet I/O
+numpy
+pandas
+polars>=1.21
+pyarrow
+
+# Machine learning and probabilistic forecasting
+lightgbm
+scikit-learn
+scipy
+joblib
+
+# Historical data, injury reports and player matching
+kagglehub[pandas-datasets]
+nbainjuries
+rapidfuzz
+
+# Sportsbook data ingestion
+requests
+urllib3
+curl-cffi
+
+# IANA timezone database (including Windows)
+tzdata
+
+# Model development notebooks (optional for daily pipeline)
+jupyterlab
+ipykernel
+matplotlib
+xgboost
+h2o
+optuna
+shap
